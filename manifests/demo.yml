@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: primary
-        image: nanxuspinacr.azurecr.io/mybayern1974/spin-kub-v2-demo
+        image: index.docker.io/mybayern1974/spin-kub-v2-demo
         ports:
         - containerPort: 8000
         readinessProbe:
